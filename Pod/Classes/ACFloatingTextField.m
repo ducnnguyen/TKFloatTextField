@@ -7,6 +7,11 @@
 //
 
 #import "ACFloatingTextField.h"
+
+#define HEXC(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+
 @implementation PlaceHolderLabel
 @end
 @interface ACFloatingTextField()
@@ -84,22 +89,22 @@
     
     //1. Placeholder Color.
     if (_placeHolderColor == nil){
-        _placeHolderColor = [UIColor placeholderTextColor];
+        _placeHolderColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.38];
     }
     
     //2. Placeholder Color When Selected.
     if (_selectedPlaceHolderColor==nil) {
-        _selectedPlaceHolderColor = [UIColor tikiColor];
+        _selectedPlaceHolderColor = HEXC(0x1BA8FF);
     }
     
     //3. Bottom line Color.
-    if (_lineColor==nil) {
-        _lineColor = [UIColor separatorColor];
+    if (_lineColor == nil) {
+        _lineColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.12];
     }
     
     //4. Bottom line Color When Selected.
-    if (_selectedLineColor==nil) {
-        _selectedLineColor = [UIColor tikiColor];
+    if (_selectedLineColor == nil) {
+        _selectedLineColor = HEXC(0x1BA8FF);
     }
     
     /// Adding Bottom Line View.
@@ -144,7 +149,7 @@
     if (_errorLabel == nil) {
         _errorLabel = [[UILabel alloc]initWithFrame:CGRectMake(1, CGRectGetHeight(self.frame) + 4, self.frame.size.width-1, 14)];
         _errorLabel.textAlignment = NSTextAlignmentLeft;;
-        _errorLabel.textColor = HEX(0xe53935);
+        _errorLabel.textColor = HEXC(0xe53935);
         _errorLabel.font = [UIFont systemFontOfSize:12.f];
         _errorLabel.tag = 22;
         [self addSubview:_errorLabel];

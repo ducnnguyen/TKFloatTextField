@@ -119,56 +119,56 @@
     if (!editedText) {
         return;
     }
-    @weakify(self);
+    __weak typeof(self) weakSelf = self;
     dispatch_block_t doAutoCompleteForEmailBlock = ^{
-        @strongify(self);
-        if (self.dataSource.count > 0) {
-            [self autoCompleteEmailWithEditedText:editedText dataSource:self.dataSource];
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        if (strongSelf.dataSource.count > 0) {
+            [strongSelf autoCompleteEmailWithEditedText:editedText dataSource:strongSelf.dataSource];
         }
     };
     dispatch_block_t doAutoCompleteBlock = ^ {
-        @strongify(self);
-        if (self.dataSource.count > 0) {
-            [self autoCompleteWithEditedText:editedText dataSource:self.dataSource];
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        if (strongSelf.dataSource.count > 0) {
+            [strongSelf autoCompleteWithEditedText:editedText dataSource:self.dataSource];
         }
     };
     
-    if(self.autoCompletedType == AutoCompletedType_Email)
-    {
+    if(self.autoCompletedType == AutoCompletedType_Email) {
         if (![NSThread mainThread]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 doAutoCompleteForEmailBlock();
             });
-        }else {
+        } else {
             doAutoCompleteForEmailBlock();
         }        return;
     } else if(self.autoCompletedType == AutoCompletedType_Phone){
-        self.dataSource = [Constants userPhones];
+        self.dataSource = self.userPhones;
         if (![NSThread mainThread]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 doAutoCompleteBlock();
             });
-        }else {
+        } else {
             doAutoCompleteBlock();
         }
         return;
-    }else {
+    } else {
         if (![NSThread mainThread]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 doAutoCompleteBlock();
             });
-        }else {
+        } else {
             doAutoCompleteBlock();
-        }    }
+        }
+    }
 }
 
 - (void)autoCompleteEmailWithEditedText:(NSString*)editedText dataSource:(NSArray*)dataSource {
     NSString *textAfterInput = [self textAfterInput:editedText];
     
-    if ([textAfterInput isEmptyString]) {
-        NSString *email = [AccountManager sharedInstance].loggedUser.email;
-        if ([AccountManager sharedInstance].isLoggedIn && email) {
-            [self autoCompleteWithEditedText:editedText dataSource:@[email]];
+    if ([self.class isEmptyString:textAfterInput]) {
+        
+        if (self.defaultEmail) {
+            [self autoCompleteWithEditedText:editedText dataSource:@[self.defaultEmail]];
         }
     } else {
         NSArray *suggessArr = [dataSource filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"SELF BEGINSWITH[c] %@", textAfterInput]];
@@ -243,6 +243,22 @@
         [self setSelectedTextRange:newRange];
 
     }
+}
+
++ (BOOL)isEmptyString:(NSString*)string {
+    if ((NSNull *) string == [NSNull null]) {
+        return YES;
+    }
+    if (string == nil) {
+        return YES;
+    }
+    if ([string length] == 0) {
+        return YES;
+    }
+    if ([[string stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0) {
+        return YES;
+    }
+    return NO;
 }
 
 @end
