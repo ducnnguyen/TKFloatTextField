@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKFloatTextField_Example' do
+  pod 'TKFloatTextField', :path => '../'
+
+  target 'TKFloatTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
