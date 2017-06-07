@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ACFloatingTextField.h"
+#import "TKAutoFillTextField.h"
 
 FOUNDATION_EXPORT double TKFloatTextFieldVersionNumber;
 FOUNDATION_EXPORT const unsigned char TKFloatTextFieldVersionString[];

@@ -7,7 +7,6 @@
 //
 
 #import "TKAutoFillTextField.h"
-#import "AccountManager.h"
 
 @interface TKAutoFillTextField()
 

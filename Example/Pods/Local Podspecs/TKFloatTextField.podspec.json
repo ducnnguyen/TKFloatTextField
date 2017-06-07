@@ -1,22 +1,22 @@
 {
   "name": "TKFloatTextField",
   "version": "0.1.0",
-  "summary": "A short description of TKFloatTextField.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/duc.nguyen@tiki.vn/TKFloatTextField",
+  "summary": "TKFloatTextField base on ACFLoattingTextfield",
+  "description": "Base on ACFloattingTextfield https://github.com/ErAbhishekChandani/ACFloatingTextfield\nSupport auto fill email",
+  "homepage": "https://github.com/ducnnguyen/TKFloatTextField",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "duc.nguyen@tiki.vn": "duc.nguyen@tiki.vn"
+    "ducnnguyen": "duc.nguyen@tiki.vn"
   },
   "source": {
-    "git": "https://github.com/duc.nguyen@tiki.vn/TKFloatTextField.git",
+    "git": "https://github.com/ducnnguyen/TKFloatTextField.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TKFloatTextField/Classes/**/*"
+  "source_files": "Pod/Classes/**/*"
 }

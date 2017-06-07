@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		0261B9BE74FF3B20DA9BB52B3FBBBCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0EE37E0CC7FEC3AACF6E997894F9E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		11D4226A46D25155EC6F7E1C3F068630 /* TKAutoFillTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DFE851846388A3162EBE09884C84C19 /* TKAutoFillTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17F013CA086B6F5320128953F030770B /* Pods-TKFloatTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */; };
-		335FCABFBDC7B9297CDFB85952E3F7A1 /* TKFloatTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6891CB9979276DB1EF3EA94EC2746676 /* TKFloatTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */; };
-		853C78326F2CDDF141CEEB142F3F5CFA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */; };
+		34EE44BD038BB31E457777C59A80E29D /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AC5C02D25DE4EBE0DE891E89B3E74 /* ACFloatingTextField.m */; };
+		4343CE68E7F3443C4578B8D1FC0D14E5 /* TKFloatTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8776D973A6888C1138EF3AD2F1A17B3 /* TKFloatTextField-dummy.m */; };
+		5B661F77055B67CF7EA3B3A0E137F52E /* TKFloatTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134B30987787213D8C00F93E75C2F08B /* TKFloatTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F91E2716C41AD143935E060C2FB0004 /* ACFloatingTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F9471EBF53C0DBCADB6B2C07B2E9F7CC /* ACFloatingTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98821832A3FB294D785407C19212B347 /* Pods-TKFloatTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */; };
+		9C8F6C759630EDC63C021F55864549C5 /* TKAutoFillTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F9100AB0FA5EE91DAABAF9A1EF41F0E0 /* TKAutoFillTextField.m */; };
 		B0E814CA7C2E64ED9C6176E7CCCCFDF8 /* Pods-TKFloatTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBE65CEC1AB3749880122A0A422314B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CB3DA8A1267B1B1A3C8F52B65768C591 /* Pods-TKFloatTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,38 +33,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F088ADCDA45E09AC9763686D1693D3 /* TKFloatTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKFloatTextField.xcconfig; sourceTree = "<group>"; };
 		0C450C31180DBCB6CC683DE23E85F391 /* Pods-TKFloatTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		134B30987787213D8C00F93E75C2F08B /* TKFloatTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-umbrella.h"; sourceTree = "<group>"; };
 		159FCC728E6962AB6FC030329BEEE21C /* Pods-TKFloatTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		211D16859248C5DEA6BF031A90619350 /* TKFloatTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-prefix.pch"; sourceTree = "<group>"; };
 		23E78CC4290850D15150B74ED6D749CB /* Pods-TKFloatTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Example.modulemap"; sourceTree = "<group>"; };
-		27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		3BB14F261C388F584FC357308086F68A /* Pods-TKFloatTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CA1A2E3B787C6BD0B32D65DA4AC8D28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Example.framework; path = "Pods-TKFloatTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B18E1755BB4AAE49801E473816E3C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		560EC09DED403228A6B99BC61A5F5C40 /* Pods-TKFloatTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-umbrella.h"; sourceTree = "<group>"; };
 		5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Tests.framework; path = "Pods-TKFloatTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D00923A3040713415E0329319EC7664 /* Pods-TKFloatTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5DFE851846388A3162EBE09884C84C19 /* TKAutoFillTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKAutoFillTextField.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		666AC5C02D25DE4EBE0DE891E89B3E74 /* ACFloatingTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACFloatingTextField.m; sourceTree = "<group>"; };
 		72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		8BE8EE7DDFE5BF02AB5A3FBC0B9F2DA3 /* Pods-TKFloatTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		92372CDB8AD17B18371736AA3AD7B27D /* Pods-TKFloatTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7372094141A6CE89A3EC025EC9A4F8E /* TKFloatTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKFloatTextField.modulemap; sourceTree = "<group>"; };
+		95868D9CA249879358EA5366A823AF9A /* TKFloatTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKFloatTextField.modulemap; sourceTree = "<group>"; };
 		B1DF2AEA2990E1DB06237F0A16955BFD /* Pods-TKFloatTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2F149007D525C93F32866B94C294C95 /* Pods-TKFloatTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKFloatTextField-dummy.m"; sourceTree = "<group>"; };
-		C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKFloatTextField.xcconfig; sourceTree = "<group>"; };
+		C8776D973A6888C1138EF3AD2F1A17B3 /* TKFloatTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKFloatTextField-dummy.m"; sourceTree = "<group>"; };
 		D394F454E3D99AEE608FB74CDFD6B259 /* Pods-TKFloatTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3B176D15AA104BEE54EFB3F605A02D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCAF4E61EEFB42FF9C76AEC85E2601EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD00066E26524D3FC1E1427B6C1DE9C1 /* Pods-TKFloatTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0AD237E02064CAB525BD8AAB734823F /* Pods-TKFloatTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		EFE53ACF59740DF56A08589FAA890F54 /* Pods-TKFloatTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKFloatTextField.framework; path = TKFloatTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F259205F90F80D468FE4887E07E865D9 /* TKFloatTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-prefix.pch"; sourceTree = "<group>"; };
+		F9100AB0FA5EE91DAABAF9A1EF41F0E0 /* TKAutoFillTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKAutoFillTextField.m; sourceTree = "<group>"; };
+		F9471EBF53C0DBCADB6B2C07B2E9F7CC /* ACFloatingTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,15 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F1B69999238AF6DF5A68999B0B10F3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		24F761F195D7EAB715B50EC6AF9EAC1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,30 +106,6 @@
 				F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		286DEAE477AC7CC2AF4D4870CDE9DB75 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3B176D15AA104BEE54EFB3F605A02D1 /* Info.plist */,
-				A7372094141A6CE89A3EC025EC9A4F8E /* TKFloatTextField.modulemap */,
-				C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */,
-				BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */,
-				211D16859248C5DEA6BF031A90619350 /* TKFloatTextField-prefix.pch */,
-				58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKFloatTextField";
-			sourceTree = "<group>";
-		};
-		461808813CD28F678AAFA2CE6E40A319 /* TKFloatTextField */ = {
-			isa = PBXGroup;
-			children = (
-				286DEAE477AC7CC2AF4D4870CDE9DB75 /* Support Files */,
-				F1F5EB28EA9FB076614695E292575650 /* TKFloatTextField */,
-			);
-			name = TKFloatTextField;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -144,6 +117,27 @@
 				24F761F195D7EAB715B50EC6AF9EAC1B /* Products */,
 				88F32D5861B9FD4FE88DC14291AF44F8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80A8893E1500DA1F3E85934835C01E80 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				883EF1BAF5644CD9228335E0AE234AF3 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		883EF1BAF5644CD9228335E0AE234AF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9471EBF53C0DBCADB6B2C07B2E9F7CC /* ACFloatingTextField.h */,
+				666AC5C02D25DE4EBE0DE891E89B3E74 /* ACFloatingTextField.m */,
+				5DFE851846388A3162EBE09884C84C19 /* TKAutoFillTextField.h */,
+				F9100AB0FA5EE91DAABAF9A1EF41F0E0 /* TKAutoFillTextField.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		88F32D5861B9FD4FE88DC14291AF44F8 /* Targets Support Files */ = {
@@ -158,7 +152,7 @@
 		90CE30D544437008E896379E3F4F38F2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				461808813CD28F678AAFA2CE6E40A319 /* TKFloatTextField */,
+				D654BB91A8EFE76E459F17573A4DC4ED /* TKFloatTextField */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -215,13 +209,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F1F5EB28EA9FB076614695E292575650 /* TKFloatTextField */ = {
+		D654BB91A8EFE76E459F17573A4DC4ED /* TKFloatTextField */ = {
 			isa = PBXGroup;
 			children = (
-				01F1B69999238AF6DF5A68999B0B10F3 /* Classes */,
+				80A8893E1500DA1F3E85934835C01E80 /* Pod */,
+				E06ABB8F818ED40589B8F3C7947BE1D1 /* Support Files */,
 			);
 			name = TKFloatTextField;
-			path = TKFloatTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E06ABB8F818ED40589B8F3C7947BE1D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B18E1755BB4AAE49801E473816E3C74 /* Info.plist */,
+				95868D9CA249879358EA5366A823AF9A /* TKFloatTextField.modulemap */,
+				01F088ADCDA45E09AC9763686D1693D3 /* TKFloatTextField.xcconfig */,
+				C8776D973A6888C1138EF3AD2F1A17B3 /* TKFloatTextField-dummy.m */,
+				F259205F90F80D468FE4887E07E865D9 /* TKFloatTextField-prefix.pch */,
+				134B30987787213D8C00F93E75C2F08B /* TKFloatTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKFloatTextField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A783E9B60F535BF278AF6920433481E2 /* Headers */ = {
+		8F674EF219DC77030CCE05D8F0740768 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335FCABFBDC7B9297CDFB85952E3F7A1 /* TKFloatTextField-umbrella.h in Headers */,
+				8F91E2716C41AD143935E060C2FB0004 /* ACFloatingTextField.h in Headers */,
+				11D4226A46D25155EC6F7E1C3F068630 /* TKAutoFillTextField.h in Headers */,
+				5B661F77055B67CF7EA3B3A0E137F52E /* TKFloatTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +286,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3374DA845C20BF02F6CC42A686323F6E /* Build configuration list for PBXNativeTarget "TKFloatTextField" */;
 			buildPhases = (
-				93DB6E468816A66609C551A99FFCDB43 /* Sources */,
+				F5340B491D0CA0D1FA0066EEA4B35581 /* Sources */,
 				D16D0093CB3D16ABA8851FF0EEDB4B6C /* Frameworks */,
-				A783E9B60F535BF278AF6920433481E2 /* Headers */,
+				8F674EF219DC77030CCE05D8F0740768 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,12 +362,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93DB6E468816A66609C551A99FFCDB43 /* Sources */ = {
+		F5340B491D0CA0D1FA0066EEA4B35581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853C78326F2CDDF141CEEB142F3F5CFA /* ReplaceMe.m in Sources */,
-				6891CB9979276DB1EF3EA94EC2746676 /* TKFloatTextField-dummy.m in Sources */,
+				34EE44BD038BB31E457777C59A80E29D /* ACFloatingTextField.m in Sources */,
+				9C8F6C759630EDC63C021F55864549C5 /* TKAutoFillTextField.m in Sources */,
+				4343CE68E7F3443C4578B8D1FC0D14E5 /* TKFloatTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +542,7 @@
 		};
 		6AE813894D3AECA091DD59744CB1E0D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */;
+			baseConfigurationReference = 01F088ADCDA45E09AC9763686D1693D3 /* TKFloatTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -606,7 +618,7 @@
 		};
 		BDD72D850A4F95FFB8F5FC50C6877290 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */;
+			baseConfigurationReference = 01F088ADCDA45E09AC9763686D1693D3 /* TKFloatTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
