@@ -39,6 +39,4 @@ Support auto fill email
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'ReactiveCocoa', '~> 2.5'
-    s.dependency 'TKControlsLib', '~> 0.1.0'
 end
