@@ -1,0 +1,6 @@
+framework module Pods_TKFloatTextField_Example {
+  umbrella header "Pods-TKFloatTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

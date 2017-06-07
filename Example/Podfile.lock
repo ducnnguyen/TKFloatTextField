@@ -1,0 +1,16 @@
+PODS:
+  - TKFloatTextField (0.1.0)
+
+DEPENDENCIES:
+  - TKFloatTextField (from `../`)
+
+EXTERNAL SOURCES:
+  TKFloatTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TKFloatTextField: 2a7ee874f53240d78236f56091de059aaf87d03a
+
+PODFILE CHECKSUM: 24dc3a5a64291dca78df615f807d05dff4868539
+
+COCOAPODS: 1.2.1

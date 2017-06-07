@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0261B9BE74FF3B20DA9BB52B3FBBBCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0EE37E0CC7FEC3AACF6E997894F9E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		17F013CA086B6F5320128953F030770B /* Pods-TKFloatTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */; };
+		335FCABFBDC7B9297CDFB85952E3F7A1 /* TKFloatTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6891CB9979276DB1EF3EA94EC2746676 /* TKFloatTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */; };
+		853C78326F2CDDF141CEEB142F3F5CFA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */; };
+		98821832A3FB294D785407C19212B347 /* Pods-TKFloatTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */; };
+		B0E814CA7C2E64ED9C6176E7CCCCFDF8 /* Pods-TKFloatTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE65CEC1AB3749880122A0A422314B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB3DA8A1267B1B1A3C8F52B65768C591 /* Pods-TKFloatTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A692A45764EC6D61E19689D9ED273138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4951A97ABB318D4A67F19B4D28C1692D;
+			remoteInfo = TKFloatTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C450C31180DBCB6CC683DE23E85F391 /* Pods-TKFloatTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		159FCC728E6962AB6FC030329BEEE21C /* Pods-TKFloatTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		211D16859248C5DEA6BF031A90619350 /* TKFloatTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-prefix.pch"; sourceTree = "<group>"; };
+		23E78CC4290850D15150B74ED6D749CB /* Pods-TKFloatTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Example.modulemap"; sourceTree = "<group>"; };
+		27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		3BB14F261C388F584FC357308086F68A /* Pods-TKFloatTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA1A2E3B787C6BD0B32D65DA4AC8D28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Example.framework; path = "Pods-TKFloatTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		560EC09DED403228A6B99BC61A5F5C40 /* Pods-TKFloatTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-umbrella.h"; sourceTree = "<group>"; };
+		5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Tests.framework; path = "Pods-TKFloatTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D00923A3040713415E0329319EC7664 /* Pods-TKFloatTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		8BE8EE7DDFE5BF02AB5A3FBC0B9F2DA3 /* Pods-TKFloatTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		92372CDB8AD17B18371736AA3AD7B27D /* Pods-TKFloatTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7372094141A6CE89A3EC025EC9A4F8E /* TKFloatTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKFloatTextField.modulemap; sourceTree = "<group>"; };
+		B1DF2AEA2990E1DB06237F0A16955BFD /* Pods-TKFloatTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F149007D525C93F32866B94C294C95 /* Pods-TKFloatTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKFloatTextField-dummy.m"; sourceTree = "<group>"; };
+		C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKFloatTextField.xcconfig; sourceTree = "<group>"; };
+		D394F454E3D99AEE608FB74CDFD6B259 /* Pods-TKFloatTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3B176D15AA104BEE54EFB3F605A02D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAF4E61EEFB42FF9C76AEC85E2601EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD00066E26524D3FC1E1427B6C1DE9C1 /* Pods-TKFloatTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0AD237E02064CAB525BD8AAB734823F /* Pods-TKFloatTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		EFE53ACF59740DF56A08589FAA890F54 /* Pods-TKFloatTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKFloatTextField.framework; path = TKFloatTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E28CAC3E771E755C65BAA77D574E7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE37E0CC7FEC3AACF6E997894F9E775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4F45D3E123E0DF8DC019C94A68DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE65CEC1AB3749880122A0A422314B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16D0093CB3D16ABA8851FF0EEDB4B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0261B9BE74FF3B20DA9BB52B3FBBBCB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F1B69999238AF6DF5A68999B0B10F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27C922BC734AB81E246FF57F2F6BAAC8 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24F761F195D7EAB715B50EC6AF9EAC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */,
+				5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */,
+				F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286DEAE477AC7CC2AF4D4870CDE9DB75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B176D15AA104BEE54EFB3F605A02D1 /* Info.plist */,
+				A7372094141A6CE89A3EC025EC9A4F8E /* TKFloatTextField.modulemap */,
+				C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */,
+				BFAB34F269F6CC1B7849353251BA53E7 /* TKFloatTextField-dummy.m */,
+				211D16859248C5DEA6BF031A90619350 /* TKFloatTextField-prefix.pch */,
+				58C249D9ECA63EE5A48336225B2DA461 /* TKFloatTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKFloatTextField";
+			sourceTree = "<group>";
+		};
+		461808813CD28F678AAFA2CE6E40A319 /* TKFloatTextField */ = {
+			isa = PBXGroup;
+			children = (
+				286DEAE477AC7CC2AF4D4870CDE9DB75 /* Support Files */,
+				F1F5EB28EA9FB076614695E292575650 /* TKFloatTextField */,
+			);
+			name = TKFloatTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				90CE30D544437008E896379E3F4F38F2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				24F761F195D7EAB715B50EC6AF9EAC1B /* Products */,
+				88F32D5861B9FD4FE88DC14291AF44F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88F32D5861B9FD4FE88DC14291AF44F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26BD32ACB67B2E5768080B30667CF94 /* Pods-TKFloatTextField_Example */,
+				B89519DCF760D2C008B3F08E61CB4CED /* Pods-TKFloatTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		90CE30D544437008E896379E3F4F38F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				461808813CD28F678AAFA2CE6E40A319 /* TKFloatTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B89519DCF760D2C008B3F08E61CB4CED /* Pods-TKFloatTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA1A2E3B787C6BD0B32D65DA4AC8D28 /* Info.plist */,
+				E0AD237E02064CAB525BD8AAB734823F /* Pods-TKFloatTextField_Tests.modulemap */,
+				B2F149007D525C93F32866B94C294C95 /* Pods-TKFloatTextField_Tests-acknowledgements.markdown */,
+				DD00066E26524D3FC1E1427B6C1DE9C1 /* Pods-TKFloatTextField_Tests-acknowledgements.plist */,
+				72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */,
+				159FCC728E6962AB6FC030329BEEE21C /* Pods-TKFloatTextField_Tests-frameworks.sh */,
+				8BE8EE7DDFE5BF02AB5A3FBC0B9F2DA3 /* Pods-TKFloatTextField_Tests-resources.sh */,
+				BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */,
+				3BB14F261C388F584FC357308086F68A /* Pods-TKFloatTextField_Tests.debug.xcconfig */,
+				EFE53ACF59740DF56A08589FAA890F54 /* Pods-TKFloatTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKFloatTextField_Tests";
+			path = "Target Support Files/Pods-TKFloatTextField_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C26BD32ACB67B2E5768080B30667CF94 /* Pods-TKFloatTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4E61EEFB42FF9C76AEC85E2601EC /* Info.plist */,
+				23E78CC4290850D15150B74ED6D749CB /* Pods-TKFloatTextField_Example.modulemap */,
+				D394F454E3D99AEE608FB74CDFD6B259 /* Pods-TKFloatTextField_Example-acknowledgements.markdown */,
+				92372CDB8AD17B18371736AA3AD7B27D /* Pods-TKFloatTextField_Example-acknowledgements.plist */,
+				406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */,
+				5D00923A3040713415E0329319EC7664 /* Pods-TKFloatTextField_Example-frameworks.sh */,
+				0C450C31180DBCB6CC683DE23E85F391 /* Pods-TKFloatTextField_Example-resources.sh */,
+				448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */,
+				B1DF2AEA2990E1DB06237F0A16955BFD /* Pods-TKFloatTextField_Example.debug.xcconfig */,
+				560EC09DED403228A6B99BC61A5F5C40 /* Pods-TKFloatTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-TKFloatTextField_Example";
+			path = "Target Support Files/Pods-TKFloatTextField_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1F5EB28EA9FB076614695E292575650 /* TKFloatTextField */ = {
+			isa = PBXGroup;
+			children = (
+				01F1B69999238AF6DF5A68999B0B10F3 /* Classes */,
+			);
+			name = TKFloatTextField;
+			path = TKFloatTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		361EF0B829051544826469F0E3A4CDE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E814CA7C2E64ED9C6176E7CCCCFDF8 /* Pods-TKFloatTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A783E9B60F535BF278AF6920433481E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FCABFBDC7B9297CDFB85952E3F7A1 /* TKFloatTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B484ECB83711FA8BD449465D7964C8BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3DA8A1267B1B1A3C8F52B65768C591 /* Pods-TKFloatTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		472B22A69160A0B9549FAB1E92ABA7C9 /* Pods-TKFloatTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3151CD6C1C6A0531D11061DD99EFF22F /* Build configuration list for PBXNativeTarget "Pods-TKFloatTextField_Tests" */;
+			buildPhases = (
+				7CD59D3B2918A40DBAECDCBCB26C43C2 /* Sources */,
+				0E28CAC3E771E755C65BAA77D574E7B7 /* Frameworks */,
+				B484ECB83711FA8BD449465D7964C8BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TKFloatTextField_Tests";
+			productName = "Pods-TKFloatTextField_Tests";
+			productReference = 5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4951A97ABB318D4A67F19B4D28C1692D /* TKFloatTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3374DA845C20BF02F6CC42A686323F6E /* Build configuration list for PBXNativeTarget "TKFloatTextField" */;
+			buildPhases = (
+				93DB6E468816A66609C551A99FFCDB43 /* Sources */,
+				D16D0093CB3D16ABA8851FF0EEDB4B6C /* Frameworks */,
+				A783E9B60F535BF278AF6920433481E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKFloatTextField;
+			productName = TKFloatTextField;
+			productReference = F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B14E7D4FA1E0B4C18E94D4FF6E94A24F /* Pods-TKFloatTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E6D20BD892D431457028ED07CDEB10 /* Build configuration list for PBXNativeTarget "Pods-TKFloatTextField_Example" */;
+			buildPhases = (
+				4B40089783AFB6FC0893B7E4B9B334D2 /* Sources */,
+				4FD4F45D3E123E0DF8DC019C94A68DC0 /* Frameworks */,
+				361EF0B829051544826469F0E3A4CDE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD8EA49DE21EDFED2DE165F21C39F6B /* PBXTargetDependency */,
+			);
+			name = "Pods-TKFloatTextField_Example";
+			productName = "Pods-TKFloatTextField_Example";
+			productReference = 446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24F761F195D7EAB715B50EC6AF9EAC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14E7D4FA1E0B4C18E94D4FF6E94A24F /* Pods-TKFloatTextField_Example */,
+				472B22A69160A0B9549FAB1E92ABA7C9 /* Pods-TKFloatTextField_Tests */,
+				4951A97ABB318D4A67F19B4D28C1692D /* TKFloatTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B40089783AFB6FC0893B7E4B9B334D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F013CA086B6F5320128953F030770B /* Pods-TKFloatTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD59D3B2918A40DBAECDCBCB26C43C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98821832A3FB294D785407C19212B347 /* Pods-TKFloatTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB6E468816A66609C551A99FFCDB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C78326F2CDDF141CEEB142F3F5CFA /* ReplaceMe.m in Sources */,
+				6891CB9979276DB1EF3EA94EC2746676 /* TKFloatTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD8EA49DE21EDFED2DE165F21C39F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKFloatTextField;
+			target = 4951A97ABB318D4A67F19B4D28C1692D /* TKFloatTextField */;
+			targetProxy = A692A45764EC6D61E19689D9ED273138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24FAFECF5BAF9682119BFB4E5F4501D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DF2AEA2990E1DB06237F0A16955BFD /* Pods-TKFloatTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKFloatTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKFloatTextField_Example/Pods-TKFloatTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKFloatTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E6375C2BCEA7E69EBDE4BCA75C7A3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560EC09DED403228A6B99BC61A5F5C40 /* Pods-TKFloatTextField_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKFloatTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKFloatTextField_Example/Pods-TKFloatTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKFloatTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		676D0B02BB053BFBBEAA07FE61FB3E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE53ACF59740DF56A08589FAA890F54 /* Pods-TKFloatTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKFloatTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKFloatTextField_Tests/Pods-TKFloatTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKFloatTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AE813894D3AECA091DD59744CB1E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKFloatTextField/TKFloatTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKFloatTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKFloatTextField/TKFloatTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TKFloatTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD72D850A4F95FFB8F5FC50C6877290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92FF70B839F1424B02EA60DAAEE89BC /* TKFloatTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKFloatTextField/TKFloatTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKFloatTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKFloatTextField/TKFloatTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TKFloatTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDCCD702E227F0AC5094A711330FE42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB14F261C388F584FC357308086F68A /* Pods-TKFloatTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKFloatTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKFloatTextField_Tests/Pods-TKFloatTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKFloatTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3151CD6C1C6A0531D11061DD99EFF22F /* Build configuration list for PBXNativeTarget "Pods-TKFloatTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCD702E227F0AC5094A711330FE42F /* Debug */,
+				676D0B02BB053BFBBEAA07FE61FB3E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3374DA845C20BF02F6CC42A686323F6E /* Build configuration list for PBXNativeTarget "TKFloatTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD72D850A4F95FFB8F5FC50C6877290 /* Debug */,
+				6AE813894D3AECA091DD59744CB1E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E6D20BD892D431457028ED07CDEB10 /* Build configuration list for PBXNativeTarget "Pods-TKFloatTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FAFECF5BAF9682119BFB4E5F4501D0 /* Debug */,
+				5E6375C2BCEA7E69EBDE4BCA75C7A3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

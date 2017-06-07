@@ -1,0 +1,6 @@
+framework module TKFloatTextField {
+  umbrella header "TKFloatTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
