@@ -17,7 +17,7 @@ typedef enum {
 
 @property (nonatomic, strong) NSArray *dataSource;
 @property (nonatomic) AutoCompletedType autoCompletedType;
-@property (nonatomic, copy) void(^didAutoFill)();
+@property (nonatomic, copy) void(^didAutoFill)(void);
 @property (nonatomic, strong) NSString *defaultEmail;
 @property (nonatomic, strong) NSArray *userPhones;
 @end

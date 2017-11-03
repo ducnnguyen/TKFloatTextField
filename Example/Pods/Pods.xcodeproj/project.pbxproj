@@ -37,15 +37,15 @@
 		0C450C31180DBCB6CC683DE23E85F391 /* Pods-TKFloatTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-resources.sh"; sourceTree = "<group>"; };
 		134B30987787213D8C00F93E75C2F08B /* TKFloatTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-umbrella.h"; sourceTree = "<group>"; };
 		159FCC728E6962AB6FC030329BEEE21C /* Pods-TKFloatTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		23E78CC4290850D15150B74ED6D749CB /* Pods-TKFloatTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Example.modulemap"; sourceTree = "<group>"; };
+		23E78CC4290850D15150B74ED6D749CB /* Pods-TKFloatTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TKFloatTextField_Example.modulemap"; sourceTree = "<group>"; };
 		3BB14F261C388F584FC357308086F68A /* Pods-TKFloatTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CA1A2E3B787C6BD0B32D65DA4AC8D28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406B9D8C31EDC360B8A28CD896368148 /* Pods-TKFloatTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Example.framework; path = "Pods-TKFloatTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446A533882F56364FC88DBD341035084 /* Pods_TKFloatTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKFloatTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		448DF7CBA759578D69F57768B1D5D52E /* Pods-TKFloatTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B18E1755BB4AAE49801E473816E3C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		560EC09DED403228A6B99BC61A5F5C40 /* Pods-TKFloatTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKFloatTextField_Tests.framework; path = "Pods-TKFloatTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1BF2CA682848B2C547932D76CE207F /* Pods_TKFloatTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKFloatTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D00923A3040713415E0329319EC7664 /* Pods-TKFloatTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5DFE851846388A3162EBE09884C84C19 /* TKAutoFillTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKAutoFillTextField.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -53,8 +53,8 @@
 		72E126E626B72AD953EDAE7DDA6F406B /* Pods-TKFloatTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKFloatTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		8BE8EE7DDFE5BF02AB5A3FBC0B9F2DA3 /* Pods-TKFloatTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKFloatTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		92372CDB8AD17B18371736AA3AD7B27D /* Pods-TKFloatTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95868D9CA249879358EA5366A823AF9A /* TKFloatTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKFloatTextField.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95868D9CA249879358EA5366A823AF9A /* TKFloatTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKFloatTextField.modulemap; sourceTree = "<group>"; };
 		B1DF2AEA2990E1DB06237F0A16955BFD /* Pods-TKFloatTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2F149007D525C93F32866B94C294C95 /* Pods-TKFloatTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD84787B30264446C02A7B76D3CABCA2 /* Pods-TKFloatTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKFloatTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		D394F454E3D99AEE608FB74CDFD6B259 /* Pods-TKFloatTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKFloatTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCAF4E61EEFB42FF9C76AEC85E2601EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD00066E26524D3FC1E1427B6C1DE9C1 /* Pods-TKFloatTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKFloatTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0AD237E02064CAB525BD8AAB734823F /* Pods-TKFloatTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKFloatTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		E0AD237E02064CAB525BD8AAB734823F /* Pods-TKFloatTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TKFloatTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		EFE53ACF59740DF56A08589FAA890F54 /* Pods-TKFloatTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKFloatTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKFloatTextField.framework; path = TKFloatTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2291C1F052FE83A73A5C4D417D7A103 /* TKFloatTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKFloatTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F259205F90F80D468FE4887E07E865D9 /* TKFloatTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKFloatTextField-prefix.pch"; sourceTree = "<group>"; };
 		F9100AB0FA5EE91DAABAF9A1EF41F0E0 /* TKAutoFillTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKAutoFillTextField.m; sourceTree = "<group>"; };
 		F9471EBF53C0DBCADB6B2C07B2E9F7CC /* ACFloatingTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
@@ -124,7 +124,6 @@
 			children = (
 				883EF1BAF5644CD9228335E0AE234AF3 /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -136,7 +135,6 @@
 				5DFE851846388A3162EBE09884C84C19 /* TKAutoFillTextField.h */,
 				F9100AB0FA5EE91DAABAF9A1EF41F0E0 /* TKAutoFillTextField.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -324,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -430,7 +428,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -438,15 +438,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -582,7 +588,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -590,14 +598,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
