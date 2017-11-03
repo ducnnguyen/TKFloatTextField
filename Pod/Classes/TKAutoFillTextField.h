@@ -9,7 +9,8 @@
 #import "ACFloatingTextField.h"
 typedef enum {
     AutoCompletedType_Email = 0,
-    AutoCompletedType_Phone
+    AutoCompletedType_Phone,
+    AutoCompletedType_None
 }AutoCompletedType;
 
 @interface TKAutoFillTextField : ACFloatingTextField
