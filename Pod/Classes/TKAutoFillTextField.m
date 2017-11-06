@@ -52,6 +52,12 @@
     self.autocapitalizationType = UITextAutocapitalizationTypeNone;
     self.autocorrectionType = UITextAutocorrectionTypeNo;
     self.spellCheckingType = UITextSpellCheckingTypeNo;
+
+    [self addTarget:self action:@selector(textFieldDidChanged) forControlEvents:UIControlEventEditingChanged];
+}
+
+- (void)setAutoCompletedType:(AutoCompletedType)autoCompletedType {
+    self.autoCompletedType = autoCompletedType;
     if (self.autoCompletedType == AutoCompletedType_Email) {
         self.dataSource = @[@"gmail.com",
                             @"tiki.vn",
@@ -77,9 +83,6 @@
                             @"shopee.vn",
                             @"vuivui.com"];
     }
-    
-    
-    [self addTarget:self action:@selector(textFieldDidChanged) forControlEvents:UIControlEventEditingChanged];
 }
 
 - (NSString *)textAfterInput:(NSString *)originText {
