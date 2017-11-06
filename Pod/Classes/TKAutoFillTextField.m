@@ -57,8 +57,8 @@
 }
 
 - (void)setAutoCompletedType:(AutoCompletedType)autoCompletedType {
-    self.autoCompletedType = autoCompletedType;
-    if (self.autoCompletedType == AutoCompletedType_Email) {
+    _autoCompletedType = autoCompletedType;
+    if (autoCompletedType == AutoCompletedType_Email) {
         self.dataSource = @[@"gmail.com",
                             @"tiki.vn",
                             @"yahoo.com",
