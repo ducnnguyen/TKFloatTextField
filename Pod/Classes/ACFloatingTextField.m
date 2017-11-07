@@ -187,7 +187,7 @@
     
     [_labelPlaceholder removeFromSuperview];
     NSString *placeHolderText = _labelPlaceholder.text;
-    _labelPlaceholder = [[UILabel alloc] initWithFrame:CGRectMake(2, -4, self.frame.size.width - 0, CGRectGetHeight(self.frame))];
+    _labelPlaceholder = [[UILabel alloc] initWithFrame:CGRectMake(2, -4, self.frame.size.width - 2, CGRectGetHeight(self.frame))];
     _labelPlaceholder.text = placeHolderText;
     _labelPlaceholder.textAlignment = self.textAlignment;
     _labelPlaceholder.textColor = _placeHolderColor;
@@ -208,8 +208,9 @@
     self.labelErrorPlaceholder.hidden = YES;
     [self addSubview:self.labelErrorPlaceholder];
     CGRect frameError = self.labelErrorPlaceholder.frame;
-    frameError.origin.x = 0;
+    frameError.origin.x = 2;
     frameError.origin.y = CGRectGetHeight(self.bounds) + 5;
+    frameError.size.width = CGRectGetWidth(self.bounds) -2;
     self.labelErrorPlaceholder.frame = frameError;
 }
 
@@ -240,7 +241,6 @@
 
 #pragma mark  Method to Hide Error Label.
 - (void)hideErrorPlaceHolder{
-    showingError = NO;
     if (self.errorText == nil || [self.errorText isEqualToString:@""]) {
         return;
     }
@@ -326,13 +326,10 @@
 #pragma mark  UITextField Begin Editing.
 
 - (void)textFieldDidBeginEditing {
-    if (showingError) {
-        [self hideErrorPlaceHolder];
-    }
+
     if (!self.disableFloatingLabel) {
         self.placeholder = @"";
     }
-    
     [self floatTheLabel];
     [self layoutSubviews];
 }
@@ -347,23 +344,16 @@
 -(void)floatTheLabel{
     
     if ([self.text isEqualToString:@""] && self.isFirstResponder) {
-        
         [self floatPlaceHolder:YES];
-        
-    }else if ([self.text isEqualToString:@""] && !self.isFirstResponder) {
-        
+    } else if ([self.text isEqualToString:@""] && !self.isFirstResponder) {
         [self resignPlaceholder];
-        
-    }else if (![self.text isEqualToString:@""] && !self.isFirstResponder) {
-        
+    } else if (![self.text isEqualToString:@""] && !self.isFirstResponder) {
         [self floatPlaceHolder:NO];
-        
-    }else if (![self.text isEqualToString:@""] && self.isFirstResponder) {
-        
+    } else if (![self.text isEqualToString:@""] && self.isFirstResponder) {
         [self floatPlaceHolder:YES];
     }
-    
 }
+
 #pragma mark  Shake Animation
 - (void)shakeView:(UIView*)view {
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.translation.x"];
@@ -375,12 +365,10 @@
 
 #pragma mark  Set Placeholder Text On Error Labels
 - (void)beginShowError {
-    showingError = YES;
     [self showErrorPlaceHolder];
 }
 
 - (void)beginHideError {
-    showingError = false;
     [self hideErrorPlaceHolder];
     [self floatTheLabel];
 }
@@ -411,6 +399,6 @@
 }
 
 - (NSString*)errorMessage {
-    return  self.errorText;
+    return self.errorText;
 }
 @end
