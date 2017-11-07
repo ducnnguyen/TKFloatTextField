@@ -178,7 +178,8 @@
     }
     if (self.labelPlaceholder.superview != nil){
         CGRect labelFrame = self.labelPlaceholder.frame;
-        labelFrame.origin.x = 5;
+        labelFrame.origin.x = 2;
+        labelFrame.origin.y = -4;
         labelFrame.size.width = self.frame.size.width;
         self.labelPlaceholder.frame = labelFrame;
         return;
@@ -186,7 +187,7 @@
     
     [_labelPlaceholder removeFromSuperview];
     NSString *placeHolderText = _labelPlaceholder.text;
-    _labelPlaceholder = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width - 0, CGRectGetHeight(self.frame))];
+    _labelPlaceholder = [[UILabel alloc] initWithFrame:CGRectMake(2, -4, self.frame.size.width - 0, CGRectGetHeight(self.frame))];
     _labelPlaceholder.text = placeHolderText;
     _labelPlaceholder.textAlignment = self.textAlignment;
     _labelPlaceholder.textColor = _placeHolderColor;
@@ -309,7 +310,7 @@
     }
     
     
-    CGRect frame = CGRectMake(5, 0, self.frame.size.width-5, self.frame.size.height);
+    CGRect frame = CGRectMake(2, -4, self.frame.size.width-5, self.frame.size.height);
     
     [UIView animateWithDuration:0.3 animations:^{
         _labelPlaceholder.frame = frame;
