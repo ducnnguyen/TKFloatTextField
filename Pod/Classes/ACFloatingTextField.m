@@ -7,6 +7,7 @@
 //
 
 #import "ACFloatingTextField.h"
+@import libextobjc;
 
 #define HEXC(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -146,7 +147,7 @@
     /// Adding Placeholder Label.
     [self addPlaceholderLabel];
     
-    [self setValue:self.placeHolderColor forKeyPath:@"_placeholderLabel.textColor"];
+    self.labelPlaceholder.textColor = self.placeHolderColor;
     
     /// Placeholder Label Configuration.
     if (![self.text isEqualToString:@""]) {
@@ -216,6 +217,7 @@
 
 #pragma mark  Method to show Error Label.
 - (void) showErrorPlaceHolder{
+    @weakify(self)
     CGRect bottmLineFrame = bottomLineView.frame;
     bottmLineFrame.origin.y = self.frame.size.height - 1;
     if (self.errorText != nil && ![self.errorText isEqualToString:@""]) {
@@ -223,14 +225,16 @@
         self.labelErrorPlaceholder.hidden = NO;
         
         [UIView animateWithDuration:0.2 animations:^{
-            bottomLineView.frame  =  bottmLineFrame;
-            bottomLineView.backgroundColor = _errorLineColor;
+            @strongify(self)
+            self->bottomLineView.frame  =  bottmLineFrame;
+            self->bottomLineView.backgroundColor = self.errorLineColor;
             self.labelErrorPlaceholder.alpha = 1;
         }];
     } else {
         [UIView animateWithDuration:0.2 animations:^{
-            bottomLineView.frame  =  bottmLineFrame;
-            bottomLineView.backgroundColor = _errorLineColor;
+            @strongify(self)
+            self->bottomLineView.frame  =  bottmLineFrame;
+            self->bottomLineView.backgroundColor = self.errorLineColor;
         }];
     }
     
@@ -261,23 +265,25 @@
 
 #pragma mark  Float UITextfield Placeholder Label.
 - (void)floatPlaceHolder:(BOOL)selected {
+    @weakify(self)
     self.labelPlaceholder.hidden = NO;
     CGRect bottmLineFrame = bottomLineView.frame;
     if (selected) {
         bottomLineView.backgroundColor = self.selectedLineColor;
         self.labelPlaceholder.textColor = self.selectedPlaceHolderColor;
         bottmLineFrame.origin.y = CGRectGetHeight(self.frame) - 1;
-        [self setValue:self.selectedPlaceHolderColor forKeyPath:@"_placeholderLabel.textColor"];
+        self.labelPlaceholder.textColor = self.selectedPlaceHolderColor;
     } else {
         bottomLineView.backgroundColor = self.lineColor;
         self.labelPlaceholder.textColor = self.placeHolderColor;
         bottmLineFrame.origin.y = CGRectGetHeight(self.frame)-1;
-        [self setValue:self.placeHolderColor forKeyPath:@"_placeholderLabel.textColor"];
+        self.labelPlaceholder.textColor = self.placeHolderColor;
     }
     if (self.disableFloatingLabel){
         _labelPlaceholder.hidden = YES;
         [UIView animateWithDuration:0.2 animations:^{
-            bottomLineView.frame  =  bottmLineFrame;
+            @strongify(self)
+            self->bottomLineView.frame  =  bottmLineFrame;
         }];
         return;
     }
@@ -285,16 +291,18 @@
     frame.size.height = 12;
     
     [UIView animateWithDuration:0.2 animations:^{
-        _labelPlaceholder.frame = frame;
-        _labelPlaceholder.font = [UIFont fontWithName:self.font.fontName size:12];
-        bottomLineView.frame  =  bottmLineFrame;
+        @strongify(self)
+        self.labelPlaceholder.frame = frame;
+        self.labelPlaceholder.font = [UIFont fontWithName:self.font.fontName size:12];
+        self->bottomLineView.frame  =  bottmLineFrame;
         
     }];
     
 }
 
 - (void)resignPlaceholder {
-    [self setValue:self.placeHolderColor forKeyPath:@"_placeholderLabel.textColor"];
+    @weakify(self)
+    self.labelPlaceholder.textColor = self.placeHolderColor;
     bottomLineView.backgroundColor = self.lineColor;
     
     CGRect bottmLineFrame = bottomLineView.frame;
@@ -304,7 +312,8 @@
         self.labelPlaceholder.hidden = YES;
         self.labelPlaceholder.textColor = self.placeHolderColor;
         [UIView animateWithDuration:0.2 animations:^{
-            bottomLineView.frame  =  bottmLineFrame;
+            @strongify(self)
+            self->bottomLineView.frame  =  bottmLineFrame;
         }];
         return;
     }
@@ -313,10 +322,11 @@
     CGRect frame = CGRectMake(2, -4, self.frame.size.width-5, self.frame.size.height);
     
     [UIView animateWithDuration:0.3 animations:^{
-        _labelPlaceholder.frame = frame;
-        _labelPlaceholder.font = self.font;
-        _labelPlaceholder.textColor = _placeHolderColor;
-        bottomLineView.frame  =  bottmLineFrame;
+        @strongify(self)
+        self.labelPlaceholder.frame = frame;
+        self.labelPlaceholder.font = self.font;
+        self.labelPlaceholder.textColor = self.placeHolderColor;
+        self->bottomLineView.frame  =  bottmLineFrame;
     } completion:^(BOOL finished) {
         self.labelPlaceholder.hidden = YES;
         self.placeholder = self.labelPlaceholder.text;
