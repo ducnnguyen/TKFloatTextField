@@ -32,6 +32,8 @@ Support auto fill email
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pod/Classes/**/*'
+
+  s.dependency 'libextobjc'
   
   # s.resource_bundles = {
   #   'TKFloatTextField' => ['TKFloatTextField/Assets/*.png']
