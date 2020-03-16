@@ -204,7 +204,7 @@
     self.labelErrorPlaceholder.text = self.errorText;
     self.labelErrorPlaceholder.textAlignment = self.textAlignment;
     self.labelErrorPlaceholder.textColor = self.errorTextColor;
-    self.labelErrorPlaceholder.font = [UIFont fontWithName:self.font.fontName size:12];
+    self.labelErrorPlaceholder.font = [UIFont systemFontOfSize:12];
     [self.labelErrorPlaceholder sizeToFit];
     self.labelErrorPlaceholder.hidden = YES;
     [self addSubview:self.labelErrorPlaceholder];
@@ -293,7 +293,7 @@
     [UIView animateWithDuration:0.2 animations:^{
         @strongify(self)
         self.labelPlaceholder.frame = frame;
-        self.labelPlaceholder.font = [UIFont fontWithName:self.font.fontName size:12];
+        self.labelPlaceholder.font = [UIFont systemFontOfSize:12];
         self->bottomLineView.frame  =  bottmLineFrame;
         
     }];
